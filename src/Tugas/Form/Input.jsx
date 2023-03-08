@@ -11,7 +11,7 @@ export default class Input extends React.Component {
                 <label style={style}>{this.props.label}</label>
                 <br />
                 <input style={style} type={this.props.type} name={this.props.name} 
-                onChange={e => this.props.Listener(e.target.value)}/>
+                onChange={e => this.props.Listener(e.target.value)} placeholder={this.props.placeholder}/>
                 <br />                
             </>
         )
