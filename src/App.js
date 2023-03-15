@@ -1,11 +1,11 @@
 
 import './App.css';
-import Form from './Tugas';
+import Homepage from './Tugas2';
 
 function App() {
   return (
     <div className="App">
-     <Form />
+     <Homepage />
     </div>
   );
 }
